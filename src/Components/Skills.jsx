@@ -101,7 +101,7 @@ const Skills = () => {
            </h2>
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
 
-        <div className="w-full grid grid-cols-3 sm:grid-cols-4 gap-8 text-center py-4 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-4 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
